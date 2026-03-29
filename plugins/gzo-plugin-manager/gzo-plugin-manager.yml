@@ -1,0 +1,33 @@
+name: Plugin Manager
+description: Enhances the Stash plugins settings page with four optional features — collapse/expand toggles for each plugin entry, grouping into Active and Disabled sections, colour-coded category labels with custom sorting, and visual highlighting of already-installed plugins in the Available Plugins list.
+version: "0.4.2"
+ui:
+  css:
+    - gzo-plugin-manager.css
+  javascript:
+    - gzo-plugin-manager.js
+settings:
+  collapse_enabled:
+    displayName: "Enable Plugin Collapse"
+    description: "[Default: ON] Adds a collapse/expand toggle button to each plugin entry."
+    type: BOOLEAN
+  grouping_enabled:
+    displayName: "Enable Plugin Grouping"
+    description: "[Default: ON] Groups the plugin list into Active and Disabled sections with labelled headers."
+    type: BOOLEAN
+  categorizer_enabled:
+    displayName: "Enable Plugin Categorizer"
+    description: "[Default: ON] Assigns plugins to colour-coded categories and sorts them. Adds a Categories Settings button."
+    type: BOOLEAN
+  installed_marker_enabled:
+    displayName: "Enable Installed Marker"
+    description: "[Default: ON] Marks already-installed plugins with coloured text in the Available Plugins list."
+    type: BOOLEAN
+  installed_marker_color_match:
+    displayName: "Installed Marker: Colour (version match)"
+    description: "[Default: #b3ffb3] Text colour for plugins that are installed with the same version."
+    type: STRING
+  installed_marker_color_mismatch:
+    displayName: "Installed Marker: Colour (version mismatch)"
+    description: "[Default: #ffbf80] Text colour for plugins that are installed but have a different version available."
+    type: STRING
