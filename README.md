@@ -1,24 +1,22 @@
-# Template for creating Stash plugins source index
+# GZo Stash Plugins
 
-This template allows you to create a new repository with a few clicks with preconfigured GitHub action to publish your plugins source index. 
-_This assumes you already know how to create plugins for Stash. If you don't, first read [this](https://docs.stashapp.cc/in-app-manual/plugins/#creating-plugins)._
+A collection of plugins for [Stash](https://github.com/stashapp/stash) by Ryugazou.
 
-## How to use it?
+## Installation
 
-1. Click **Use this template** > **Create a new repository**. 
-1. Choose a repository name and click **Create repository**.
-1. Open **Settings** and head to **Pages**.
-1. Under Build and deployment select the Source as GitHub Actions.
+1. In Stash, go to **Settings → Plugins**
+2. Click **Add Source** and enter the following:
+   - **Name:** GZo Plugins
+   - **URL:** `https://ryugazou.github.io/gzo-stash-plugins/main/index.yml`
+3. Click **Save**
+4. The plugins will appear in the **Available Plugins** list and can be installed from there
 
-Now add your plugins to [plugins](/plugins) directory and they will be automatically published to the source index.
+## Plugins
 
-Source index URL: [`https://<your-username>.github.io/<repository-name>/main/index.yml`](https://<your-username>.github.io/<repository-name>/main/index.yml)
+| Plugin | Description |
+|--------|-------------|
+| **Plugin Manager** | Enhances the Stash plugins settings page with four optional features: collapse/expand toggles for each plugin entry, grouping into Active and Disabled sections, colour-coded category labels with custom sorting, and visual highlighting of already-installed plugins in the Available Plugins list. |
 
-## Share your plugins
+## Support
 
-- [Create a new topic](https://discourse.stashapp.cc/t/-/33) for your plugin on the community forum.
-- [Add your source index to the list](https://discourse.stashapp.cc/t/-/122) on the Stash community forum.
-
-## License
-
-The default license is set to [AGPL-3.0](/LICENCE). Before publishing any plugins you can change it.
+For questions or feedback, visit the [Stash community forum](https://discourse.stashapp.cc).
