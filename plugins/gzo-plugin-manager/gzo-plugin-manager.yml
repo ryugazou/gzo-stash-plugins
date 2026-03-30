@@ -1,5 +1,5 @@
 name: Plugin Manager
-description: Enhances the Stash plugins settings page with four optional features — collapse/expand toggles for each plugin entry, grouping into Active and Disabled sections, colour-coded category labels with custom sorting, and visual highlighting of already-installed plugins in the Available Plugins list.
+description: Enhances the Stash plugins settings page with four optional features - collapse/expand toggles for each plugin entry, grouping into Active and Disabled sections, colour-coded category labels with custom sorting, and visual highlighting of already-installed plugins in the Available Plugins list.
 version: "0.4.2"
 ui:
   css:
